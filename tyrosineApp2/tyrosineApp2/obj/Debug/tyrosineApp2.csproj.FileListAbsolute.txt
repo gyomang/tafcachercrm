@@ -1,0 +1,7 @@
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\bin\Debug\tyrosineApp2.exe.config
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\bin\Debug\tyrosineApp2.exe
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\bin\Debug\tyrosineApp2.pdb
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\obj\Debug\tyrosineApp2.csprojAssemblyReference.cache
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\obj\Debug\tyrosineApp2.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\obj\Debug\tyrosineApp2.exe
+C:\Users\Stagiaire\source\repos\tyrosineApp2\tyrosineApp2\obj\Debug\tyrosineApp2.pdb

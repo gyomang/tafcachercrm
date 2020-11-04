@@ -1,0 +1,7 @@
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\bin\Debug\vicApp2.exe.config
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\bin\Debug\vicApp2.exe
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\bin\Debug\vicApp2.pdb
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\obj\Debug\vicApp2.csprojAssemblyReference.cache
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\obj\Debug\vicApp2.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\obj\Debug\vicApp2.exe
+C:\Users\Stagiaire\source\repos\vicApp2\vicApp2\obj\Debug\vicApp2.pdb
