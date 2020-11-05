@@ -23,12 +23,6 @@ namespace recherchechaine
                 Console.WriteLine("quel lettre voulez vous trouver ?");
                 string joseph2 = Console.ReadLine();
                 char[] joseph3 = joseph2.ToCharArray();
-                /*char joseph4;
-                foreach (var caca in joseph3)
-                {
-                    joseph4 = caca;
-                }*/
-                Console.WriteLine(joseph3[0]);
 
                 double i = 0;
                 foreach (var item in tableauString)

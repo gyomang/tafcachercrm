@@ -54,11 +54,9 @@ namespace alphabet
                     if (item.Equals(lol))
                     {
                         //Console.WriteLine(item+" comme  "+lol);
-
                         int placelol = Array.IndexOf(tablol0char, item);
                         tabmdr[placelol] = tabmdr[placelol] + 1;
-
-                        Console.WriteLine(tabmdr[placelol]);
+                        //Console.WriteLine(tabmdr[placelol]);
                     }
                 }
             }
@@ -66,7 +64,10 @@ namespace alphabet
             int k = 0;
             foreach (var nb in tabmdr)
             {
-                Console.WriteLine("la lettre '"+tablol0[k] + "' obtient " + nb+" occurence");
+                if (nb > 0)
+                {
+                    Console.WriteLine("la lettre '" + tablol0[k] + "' obtient " + nb + " occurence");
+                }
                 k = k + 1;
             }
             
