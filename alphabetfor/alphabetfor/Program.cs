@@ -12,65 +12,54 @@ namespace alphabet
         {
             Console.WriteLine("ecrire une belle phrase avec un point mdr");
             string joseph = Console.ReadLine();
-            joseph = joseph.Replace(" ", "");
-
-            //char [] josephchar = joseph.ToCharArray();
+            joseph = joseph.Replace(" ", string.Empty);
 
             int[] tabmdr = new int[26];
-
-            string[] tablol0 = new string[26] {
-                "a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"
-            };
-
-            char[] tablol0char = new char[26];
-            int i = 0;
-            foreach (var item in tablol0)
+            for (int i = 0; i < tabmdr.Length; i++)
             {
-                foreach (var item2 in item)
-                {
-                    tablol0char[i] = item2;
-                }
-
-                i = i + 1;
+                tabmdr[i] = 0;
             }
 
-            /*char[] tablolchar = new char[26] {
-                "a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"
-            };*/
+            //for (int l = 0; l < tabmdr.Length; l++)
+            //{
+            //    Console.Write(tabmdr[l]+"\t");
+            //}
+            
+            char[] alpha = new char[26];
 
-            /*string[,] tablol = new string[2,26] {
-                {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"},{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-            };*/
-
-            //double j = joseph.Length;
-
-
-
-            foreach (var item in joseph)
+            char test= 'a';
+           for (int i =0; i < alpha.Length; i++)
             {
-                foreach (var lol in tablol0char)
+                alpha[i] =test ;
+                test++;
+            }
+
+            //for (int l = 0; l < alpha.Length; l++)
+            //{
+            //    Console.Write(alpha[l] + "\t");
+            //}
+
+            for (int i = 0; i < joseph.Length; i++)
+            {
+                char lettre = joseph[i];
+
+                for (int j = 0; j < alpha.Length; j++)
                 {
-                    //Console.WriteLine(item + " et  " + lol);
-                    if (item.Equals(lol))
+                    if (lettre.CompareTo(alpha[j])==0)
                     {
-                        //Console.WriteLine(item+" comme  "+lol);
-                        int placelol = Array.IndexOf(tablol0char, item);
-                        tabmdr[placelol] = tabmdr[placelol] + 1;
-                        //Console.WriteLine(tabmdr[placelol]);
+                        tabmdr[j]++;
                     }
                 }
             }
 
-            int k = 0;
-            foreach (var nb in tabmdr)
+            for (int m = 0; m < tabmdr.Length; m++)
             {
-                if (nb > 0)
+                if (tabmdr[m] != 0)
                 {
-                    Console.WriteLine("la lettre '" + tablol0[k] + "' obtient " + nb + " occurence");
+                    Console.WriteLine("la lettre "+alpha[m]+" est presente : "+tabmdr[m]);
                 }
-                k = k + 1;
             }
-
+           
             Console.ReadKey();
         }
     }

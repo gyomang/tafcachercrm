@@ -26,12 +26,12 @@ namespace tritab
             //on as un tab de chifferela des cancrela//^_^//
 
             int j = 0;
-            int temp = 9999999;
+            int temp = 999999999;
             int k = 0;
             int z = 0;
             foreach (var item2 in tabmdr)
             {
-                temp = 9999999;
+                temp = 999999999;
                 j = 0;
                 foreach (var item in tabmdr)
                 {
