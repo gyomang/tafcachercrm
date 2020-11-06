@@ -10,7 +10,7 @@ namespace tritab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ecrire une belle phrase avec un point mdr");
+            Console.WriteLine("ecrire des chiffre separer par espace");
             string joseph = Console.ReadLine();
             string[] tab1 = joseph.Split(' ');
             int taille = tab1.Length;
@@ -23,29 +23,47 @@ namespace tritab
                 i = i + 1;
             }
 
+            //on as un tab de chifferela des cancrela//^_^//
+
             int j = 0;
             int temp = 9999999;
             int k = 0;
-            foreach (var item in tabmdr)
+            int z = 0;
+            foreach (var item2 in tabmdr)
             {
-                if (item < temp)
+                temp = 9999999;
+                j = 0;
+                foreach (var item in tabmdr)
                 {
-                    temp = item;
-                    k = j;
-                    
-                }
-                else if (item == temp)
-                {
-                    
+                    if (j>=z)
+                    {
+                        if (item < temp)
+                        {
+                            temp = item;
+                            k = j;
+                            //Console.WriteLine("test"+k);
+
+                        }
+                    }
+                    j = j + 1;
                 }
 
-                j = j + 1;
+                //Console.WriteLine(temp+"   "+k);
+
+                int morgul = tabmdr[k];
+                tabmdr[k] = tabmdr[z];
+                tabmdr[z] = morgul;
+                //Console.WriteLine("info" + z);
+
+                z = z + 1;
             }
 
+            Console.WriteLine("En ordre");
+            foreach (var item in tabmdr)
+            {
+                Console.WriteLine(item);
+            }
             
-            Console.WriteLine(temp+"   "+k);
-            
-
             Console.ReadKey();
         }
     }

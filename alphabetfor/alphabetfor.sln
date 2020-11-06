@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alphabetfor", "alphabetfor\alphabetfor.csproj", "{8BD8A675-3471-4E88-A280-EB85082C365F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BD8A675-3471-4E88-A280-EB85082C365F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD8A675-3471-4E88-A280-EB85082C365F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD8A675-3471-4E88-A280-EB85082C365F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD8A675-3471-4E88-A280-EB85082C365F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA567B10-D0E9-4F3A-9308-516B59B43366}
+	EndGlobalSection
+EndGlobal
